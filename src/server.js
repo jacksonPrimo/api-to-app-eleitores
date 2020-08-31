@@ -9,8 +9,6 @@ app.use(bodyParser.json())
 
 app.use(cors())
 
-//app.use(express.static(__dirname + '/View'))
-
 app.use(Router)
 
 app.listen('8080', ()=>{
