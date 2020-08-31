@@ -1,8 +1,8 @@
 const express = require('express');
 const Router = express.Router();
-const crudPessoa = require('./controller/crudPessoa.js')
-const crudSec = require('./controller/crudSec')
-const crudMarker = require('./controller/crudMarker')
+const crudPessoa = require('./src/controller/crudPessoa.js')
+const crudSec = require('./src/controller/crudSec')
+const crudMarker = require('./src/controller/crudMarker')
 
 Router.get('/', (req, res)=>{
     res.json({message: 'funcionando perfeitamente'});
